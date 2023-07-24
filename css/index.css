@@ -1,0 +1,458 @@
+/* #extranal css */
+#cover{
+    width: 100%; height: auto;
+
+}
+#head{
+    font-size: 48px; text-align: center;
+    color: aqua;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+#paragraph1{
+    font-size: 24px; line-height: 1.4; 
+    text-align: justify;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    line-height: 2;
+    /* font-family: 'Bungee Spice', cursive; */
+}
+#paragraph2{
+    border-style: solid;
+    /* border-top-style:solid ;
+    border-left-style: dashed ;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-width: 6px;
+    border-color: red ; */
+    /* border: 4px solid rgb(30, 3, 36);
+    border-radius: 20px;
+    border-top: 4px solid red; */
+    /* padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+    padding: 10px 20px 3px 4px;
+    /* margin: 20px; */
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+    margin: 20px 40px 40px 40px;
+
+
+}
+
+/* #orderd-list{
+    list-style-type: upper-alpha;
+    width: 500px;
+    list-style-position: inside;
+
+}
+
+#unorderd-list{
+    list-style-type: square;
+    padding-left: 0px;
+
+} */
+
+/* #topbar{
+    background-color: lightblue;
+    padding: 24px 48px;
+}
+
+.menu-item{
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu-item:link{
+    color: blue;
+}
+.menu-item:visited{
+    color: green;
+}
+.menu-item:hover{
+    color: red;
+}
+.menu-item:active{
+    color: brown;
+} */
+
+/* #btn-login{
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn-login:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+#sign-in{
+background-color: white;
+border: 2px solid lightblue;
+padding: 8px 16px;
+border-radius: 8px;
+outline: none;
+cursor: pointer;
+}
+
+#sign-in:hover{
+background-color: lightblue;
+}
+
+#disable{
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: not-allowed;
+    opacity: 1;
+} */
+
+/* adding icon */
+
+/* button{
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+#btn-facebook{
+    background-color: rgb(0, 0, 116);
+   
+
+
+}
+#btn-google{
+    background-color: rgb(255, 20, 20);
+   
+
+
+}
+#btn-github{
+    background-color: black;
+    
+
+
+}
+.label{
+    padding-left: 8px;
+
+}
+
+#google-id{
+    width: 20px;
+    height: 12px;
+} */
+
+/* display value */
+
+/* .image-item{
+    width: 250px;
+    height: 180px;
+}
+
+.image_wrap{
+
+    display: inline;
+
+}
+
+.menu-item{
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+
+
+/* } */
+
+/* inline block */
+/* 
+#span1{
+    background-color: lightblue;
+    height: 100px;
+    width: 200px;
+}
+
+#span2{
+    background-color: lightcoral;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+} */
+
+/* header{
+    background-color: lightblue;
+    height: 80px;
+    position: sticky;
+    top:0
+
+}
+main{
+    padding: 16px 10% ;
+}
+
+aside{
+    width: 29%;
+    margin-right: 1%;
+    background-color: lightcoral;
+    height: 450px;
+    display: inline-block;
+}
+
+section{
+    width: 69%;
+    background-color: burlywood;
+    height: 450px;
+    display: inline-block;
+
+}
+
+footer{
+    background-color: lightgrey;
+    height: 300px;
+} */
+
+/* Positioning element */
+/* static
+relative
+absolute
+fixed
+sticky */
+
+/* Handling Overflows */
+
+/* visible is defaut
+hidden hide extra
+scroll add scroll
+auto */ 
+
+/* #img-m{
+    width: 700px;
+    height: 560px;
+}
+
+.wraper{
+    width: 600px;
+    height: 500px;
+    overflow: scroll;
+
+} */
+
+/* floating overflow */
+
+/* #article-wraper{
+    padding: 4% 16%;
+}
+
+article{
+    padding-bottom: 48px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.article-pic{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 60px;
+
+}
+
+.article-pic2{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 60px;
+
+} */
+
+
+/* Box Model */
+
+/* Box Sizing */
+/* #div1{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: lightcoral;
+    padding: 60px;
+}
+
+#div2{
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background-color: burlywood;
+    margin-top: 24px;
+    padding: 82px;
+}
+.image{
+    width: 100%;
+} */
+
+
+/* Adding Shadow */
+
+/* main{
+    padding: 2% 12%;
+    box-sizing: border-box;
+}
+
+main h1{
+    color: blue;
+    /* text-shadow: 4px 4px 10px gray; */
+    /* text-shadow: 2px 2px 2px red, 2px 6px 2px green; */
+/* 
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    background-color: 2px;
+    box-shadow: 0px 4px 6px gray;
+
+} */
+
+/* combinators */
+
+/* descendant selector: ' '
+article h{
+    background color
+}
+
+child Selector: '>'
+
+article > p{
+    background-color
+} 
+adjacennt Sibling Selector: '+'
+
+div + p{
+
+    color:red
+}
+
+General Sibling Selector:'~' 
+
+div~p{
+    background-color:red
+
+*/
+/* 
+p + p {
+   color: red;
+  }
+   */
+
+
+/* Pseudo classes */
+
+/* links-> link, active, hover,:visited */
+/* input -> :checked, :in-range, :disabled, :focus, :invalid, :optional, :out-of-range, :read-only, :read-write, :required, :valid */
+/* general -> :empty, :first-child, :first-child, :lang(), :last-child, :last-of-type, :not(), :nth-child(),:nth-last-child(), :nth-last-of-type(), :nth-of-type(), :only-of-type, :only-child, :root, :target */
+
+/* p::first-letter */
+/* p::first-line */
+/* p::selection */
+/* p::before
+p::after */
+
+/* Apply some basic styles to the paragraphs
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    position: relative; /* Required for ::before and ::after pseudo-elements */
+  /* }
+  
+  /* Add a decorative crown before each paragraph */
+  /* p::before {
+    content: "\1F451"; /* Unicode code for a crown symbol (👑) */
+    /* position: absolute;
+    top: -10px; /* Position the crown 10px above the paragraph */
+    /* left: -25px; /* Position the crown 25px to the left of the paragraph */
+    /* font-size: 30px;
+    color: #ffa500; /* Orange color for the crown */
+  /* } */ 
+  
+  /* Add a decorative confetti after each paragraph */
+  /* p::after {
+    /* content: "\2728"; /* Unicode code for a sparkles/confetti symbol (✨) */
+    /* display: block;
+    font-size: 24px; */
+    /* color: #ff69b4; /* Pink color for the confetti */
+    /* margin: 10px auto; Center the confetti and add some spacing below the paragraph
+  } */
+
+
+  /* adding background */
+/* body{
+    width: 100%;
+    height: 720px;
+    /* background-color: brown;
+     */
+     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYijUOxetECEbCYza3d4a2pDQxAFdAIEsbxw&usqp=CAU');
+     background-repeat: no-repeat; */
+     /* background-size: 1200px 720px; */
+     /* background-position: left; */
+     /* background-position: center; */
+     /* background-size: contain; */
+     /* background-size: cover;
+
+} */
+
+
+
+/* Gradients */
+
+/* #div1{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #f869d5, #567896);
+} */
+
+/* #div2{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #f869d5, #567896);
+    margin-top: 48px;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg, #f869d5, #567896);
+    margin-top: 48px;
+}
+
+#div1{
+    width: 100%;
+    height: 200px;
+    background: radial-gradient(circle at top left,#f869d5, #567896);
+
+} */
+
+
+/* hading text overflow */
+/* 
+h1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    /* word-break: break-all; break all text  */
+    /* word-wrap: break-word; it is brak workd */
+/* } */

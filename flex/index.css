@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.item{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+}

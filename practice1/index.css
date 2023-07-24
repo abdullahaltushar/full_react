@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    text-align: right;
+}
+
+.menu-item{
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    position: relative;
+    top: -16px;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+#profile{
+    width: 48px;
+    height: 48px;
+}
+
+#dropdown-menu{
+    position: relative;
+    top: -10px;
+    margin-right:16px ;
+}
+
+section{
+    text-align: center;
+    padding-top: 10%;
+}
+
+#input-wraper{
+    position: relative;
+    width: 482px;
+    display: inline-block;
+}
+
+#search-box{
+    width: 100%;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#search-box:hover{
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.87);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-box:focus{
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.87);
+    border-color: rgba(223,225,229,0);
+}
+
+#voice{
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 28px;
+    height: 30px;
+    margin-right: 30px;
+}
+#voice1{
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 28px;
+    height: 30px;
+    margin-left: 20px;
+}
+.custom-btn{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #222;
+}
+
+.custom-btn:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow:  0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.custom-btn:first-of-type{
+    margin-right: 16px;
+}
+
+#app-dropdown{
+    width: 285px;
+    padding: 18px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+#drop-down{
+    display: inline-block;
+}
+
+#drop-down:hover
+#app-dropdown{
+        display: block;
+    }
+
+.app-item{
+    display: inline-block;
+    width: 84px;
+   padding: 8px 2px;
+   text-align: center;
+}
+.app-item:hover{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    background-color: rgb(211, 244, 255);
+}
+.app-item > img{
+    width: 50px;
+    height: 50px;
+}
+.app-item > p{
+    color: rgba(0,0,0,0.87);
+    margin: 0;
+    padding-top: 8px;
+}
+

@@ -1,0 +1,33 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+
+.head{
+    width: 1200px;
+
+}
+.head > img{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+   
+}
+.body{
+    width: 1200px;
+}
+.body > h1{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    text-align: center;
+   
+}
+.body > p{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    text-align: center;
+    
+}
